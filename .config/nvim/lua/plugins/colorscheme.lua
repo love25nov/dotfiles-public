@@ -1,12 +1,8 @@
 return {
 	{
-		"craftzdog/solarized-osaka.nvim",
+		"b0o/lavi.nvim",
 		lazy = true,
 		priority = 1000,
-		opts = function()
-			return {
-				transparent = true,
-			}
-		end,
+		dependencies = { "rktjmp/lush.nvim" },
 	},
 }
